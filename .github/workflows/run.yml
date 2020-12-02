@@ -102,7 +102,7 @@ jobs:
         echo "共有 $user_num 个账号等待签到"
         fi
 
-        random_time=$(($RANDOM % 1 + 1))
+        random_time=$(($RANDOM % 0 + 1))
         for ((i=0;i<$user_num;i++))
         do
 
